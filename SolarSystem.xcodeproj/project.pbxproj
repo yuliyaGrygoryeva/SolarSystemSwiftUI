@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		33C3A55C2876217F00E006CF /* SolarSystemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C3A55B2876217F00E006CF /* SolarSystemApp.swift */; };
-		33C3A55E2876217F00E006CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C3A55D2876217F00E006CF /* ContentView.swift */; };
 		33C3A5602876218100E006CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C3A55F2876218100E006CF /* Assets.xcassets */; };
 		33C3A5632876218100E006CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C3A5622876218100E006CF /* Preview Assets.xcassets */; };
+		33C3A56A287626EC00E006CF /* PlanetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C3A569287626EB00E006CF /* PlanetDataStore.swift */; };
+		33C3A56C2876273800E006CF /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C3A56B2876273800E006CF /* Planet.swift */; };
+		33C3A56E2876293000E006CF /* PlanetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C3A56D2876293000E006CF /* PlanetListView.swift */; };
+		33C3A57228762DFC00E006CF /* PlanetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C3A57128762DFC00E006CF /* PlanetDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33C3A5582876217F00E006CF /* SolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33C3A55B2876217F00E006CF /* SolarSystemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemApp.swift; sourceTree = "<group>"; };
-		33C3A55D2876217F00E006CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33C3A55F2876218100E006CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33C3A5622876218100E006CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33C3A569287626EB00E006CF /* PlanetDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDataStore.swift; sourceTree = "<group>"; };
+		33C3A56B2876273800E006CF /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		33C3A56D2876293000E006CF /* PlanetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetListView.swift; sourceTree = "<group>"; };
+		33C3A57128762DFC00E006CF /* PlanetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				33C3A55B2876217F00E006CF /* SolarSystemApp.swift */,
-				33C3A55D2876217F00E006CF /* ContentView.swift */,
+				33C3A56B2876273800E006CF /* Planet.swift */,
+				33C3A57128762DFC00E006CF /* PlanetDetailView.swift */,
+				33C3A56D2876293000E006CF /* PlanetListView.swift */,
+				33C3A569287626EB00E006CF /* PlanetDataStore.swift */,
 				33C3A55F2876218100E006CF /* Assets.xcassets */,
 				33C3A5612876218100E006CF /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C3A55E2876217F00E006CF /* ContentView.swift in Sources */,
+				33C3A56A287626EC00E006CF /* PlanetDataStore.swift in Sources */,
 				33C3A55C2876217F00E006CF /* SolarSystemApp.swift in Sources */,
+				33C3A56E2876293000E006CF /* PlanetListView.swift in Sources */,
+				33C3A57228762DFC00E006CF /* PlanetDetailView.swift in Sources */,
+				33C3A56C2876273800E006CF /* Planet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
